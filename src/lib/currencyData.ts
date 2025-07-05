@@ -26,6 +26,7 @@ export const currencies: Currency[] = [
   { code: "PLN", name: "Polish Zloty", symbol: "zł" },
   { code: "CZK", name: "Czech Koruna", symbol: "Kč" },
   { code: "HUF", name: "Hungarian Forint", symbol: "Ft" },
+  { code: "IDR", name: "Indonesian Rupiah", symbol: "Rp" },
 ];
 
 // Mock exchange rates - in a real app, you'd fetch these from an API
@@ -50,6 +51,7 @@ const exchangeRates: Record<string, Record<string, number>> = {
     PLN: 3.9,
     CZK: 21.5,
     HUF: 295.0,
+    IDR: 15420.0,
   },
 };
 
