@@ -1,3 +1,7 @@
+note: belum update data api realtime euy.
+
+
+-----
 # Welcome to your Lovable project
 
 ## Project info
